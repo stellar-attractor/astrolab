@@ -1,11 +1,11 @@
-# Galaxy Group Analysis & Visualization (HCG Sample)
+Galaxy Group Analysis & Visualization (HCG Sample)
 This repository contains a set of Python scripts for retrieving, processing, and visualizing data from the VizieR catalog
 J/A+A/691/A6 — a study of galaxies in Hickson Compact Groups (HCGs).
 The scripts demonstrate scientific data analysis and animated visualization techniques for astronomy outreach.
 
 ⸻
 
-## Data Source
+Data Source
 	•	Catalog: J/A+A/691/A6 (Tables A1 & A2)
 	•	Provider: VizieR (astroquery.vizier)
 	•	Content: Photometric & spectroscopic properties of galaxies in compact groups
@@ -13,7 +13,7 @@ The scripts demonstrate scientific data analysis and animated visualization tech
 
 ⸻
 
-## Scripts Overview
+Scripts Overview
 
 1. Basic Catalog Loading
 	•	Loads full VizieR tables into Pandas DataFrames.
@@ -75,7 +75,7 @@ The scripts demonstrate scientific data analysis and animated visualization tech
 
 ⸻
 
-## Technologies Used
+Technologies Used
 	•	Python (3.10+)
 	•	astroquery — for VizieR catalog queries
 	•	pandas — for data manipulation
@@ -85,14 +85,14 @@ The scripts demonstrate scientific data analysis and animated visualization tech
 
 ⸻
 
-## Example Output
+Example Output
 	•	Histograms: redshift, color index, color by redshift bin.
 	•	Scatter plots: galaxy color evolution.
 	•	Animations: stepwise build-up of data, real-time updating trends.
 
 ⸻
 
-## Educational Use
+Educational Use
 
 These scripts are designed for:
 	•	Astronomy & astrophysics students.
@@ -100,3 +100,20 @@ These scripts are designed for:
 	•	Anyone learning to combine real astronomical data with visual storytelling.
 
 ⸻
+
+📸 Gallery
+
+1. Galaxy Redshift Distribution
+![Galaxy Redshift Distribution](gallery/GRD.png)
+2. Color Index Distribution
+![Color Index Distribution](gallery/CG_color.png)
+3. Color vs Redshift Scatter
+![Color vs Redshift Scatter](gallery/CG_color_redshift.png)
+4. g − r Distribution by Redshift Bins
+![g − r Distribution by Redshift Bins](gallery/g-r_distrib_by_redshift.png)
+5. Animated Histogram (Color Accumulation)
+![Animated Histogram (Color Accumulation)](gallery/color_accumulation.gif)
+6. Animated Color Distribution by Redshift
+![Animated Color Distribution by Redshift](gallery/color_simulation.gif)
+7. Animated Scatter: Color vs. Redshift Growth  
+![Animated Scatter: Color vs. Redshift Growth](gallery/scatter.gif)
