@@ -1,11 +1,11 @@
-Galaxy Group Analysis & Visualization (HCG Sample)
+# Galaxy Group Analysis & Visualization (HCG Sample)
 This repository contains a set of Python scripts for retrieving, processing, and visualizing data from the VizieR catalog
 J/A+A/691/A6 — a study of galaxies in Hickson Compact Groups (HCGs).
 The scripts demonstrate scientific data analysis and animated visualization techniques for astronomy outreach.
 
 ⸻
 
-Data Source
+## Data Source
 	•	Catalog: J/A+A/691/A6 (Tables A1 & A2)
 	•	Provider: VizieR (astroquery.vizier)
 	•	Content: Photometric & spectroscopic properties of galaxies in compact groups
@@ -13,7 +13,7 @@ Data Source
 
 ⸻
 
-Scripts Overview
+## Scripts Overview
 
 1. Basic Catalog Loading
 	•	Loads full VizieR tables into Pandas DataFrames.
@@ -75,7 +75,7 @@ Scripts Overview
 
 ⸻
 
-Technologies Used
+## Technologies Used
 	•	Python (3.10+)
 	•	astroquery — for VizieR catalog queries
 	•	pandas — for data manipulation
@@ -85,14 +85,14 @@ Technologies Used
 
 ⸻
 
-Example Output
+## Example Output
 	•	Histograms: redshift, color index, color by redshift bin.
 	•	Scatter plots: galaxy color evolution.
 	•	Animations: stepwise build-up of data, real-time updating trends.
 
 ⸻
 
-Educational Use
+## Educational Use
 
 These scripts are designed for:
 	•	Astronomy & astrophysics students.
