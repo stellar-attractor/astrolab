@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gzml"
+version = "0.1.0"
+description = "Galaxy Zoo ML repo helpers (bootstrap, paths, CLI)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gzml*"]
+
+[project.scripts]
+gzml = "gzml.__main__:main"
