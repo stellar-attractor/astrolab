@@ -77,7 +77,7 @@ class RepoPaths:
         logs = outputs / "logs"
         models = outputs / "models"            # <-- unified place
 
-        galaxies = root / "new_galaxy_images"
+        galaxies = root / "Samples"
 
         default_model = models / "gz2_cnn.keras"
 
