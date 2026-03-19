@@ -1,119 +1,176 @@
-Galaxy Group Analysis & Visualization (HCG Sample)
-This repository contains a set of Python scripts for retrieving, processing, and visualizing data from the VizieR catalog
-J/A+A/691/A6 — a study of galaxies in Hickson Compact Groups (HCGs).
-The scripts demonstrate scientific data analysis and animated visualization techniques for astronomy outreach.
+# 🌌 Galaxy Group Analysis & Visualization  
+### Hickson Compact Groups (HCG Sample)
 
-⸻
+This repository contains a collection of Python scripts for retrieving, processing, and visualizing astronomical data from the VizieR catalog.
 
-Data Source
-	•	Catalog: J/A+A/691/A6 (Tables A1 & A2)
-	•	Provider: VizieR (astroquery.vizier)
-	•	Content: Photometric & spectroscopic properties of galaxies in compact groups
-(e.g., apparent magnitudes in SDSS g and r bands, spectroscopic redshifts).
+The project focuses on galaxies in **Hickson Compact Groups (HCGs)** and demonstrates how real observational data can be transformed into clear, engaging visualizations — including animated plots for outreach.
 
-⸻
+---
 
-Scripts Overview
+## 📡 Data Source
 
-1. Basic Catalog Loading
-	•	Loads full VizieR tables into Pandas DataFrames.
-	•	Displays first rows & column names.
-	•	Purpose: familiarization with dataset structure.
+- **Catalog:** J/A+A/691/A6 (Tables A1 & A2)  
+- **Provider:** VizieR (`astroquery.vizier`)  
+- **Content:** Photometric & spectroscopic galaxy properties  
+  - SDSS magnitudes (g, r)  
+  - Spectroscopic redshifts  
+  - Compact group membership  
 
-⸻
+---
 
-2. Galaxy Redshift Distribution
-	•	Reads Table A1, identifies the redshift column, cleans NaNs.
-	•	Plots a histogram of galaxy redshifts.
-	•	Goal: show the spread of galaxy distances in the sample.
+## 🧩 Project Structure
 
-⸻
+The repository is organized as a sequence of scripts, each focusing on a specific analysis or visualization task.
 
-3. Color Index Distribution
-	•	Uses Table A2 (gmag, rmag).
-	•	Computes color index: g - r.
-	•	Plots a histogram of color values.
-	•	Goal: reveal blue vs. red galaxy populations.
+---
 
-⸻
+## 🔬 Scripts Overview
 
-4. Color vs Redshift Scatter
-	•	Filters galaxies with valid gmag, rmag, and z.
-	•	Computes g - r color index.
-	•	Plots a scatter diagram of color vs. redshift.
-	•	Goal: explore galaxy color evolution with cosmic time.
+### 1. Basic Catalog Loading
+- Loads VizieR tables into Pandas DataFrames  
+- Displays sample rows and column structure  
 
-⸻
+**Purpose:**  
+Initial exploration of dataset structure
 
-5. g − r Distribution by Redshift Bins
-	•	Divides galaxies into three redshift ranges.
-	•	Plots overlaid histograms with classification lines at:
-	•	g - r = 0.5 (blue/red boundary)
-	•	g - r = 0.8 (red sequence)
-	•	Goal: compare color distributions at different epochs.
+---
 
-⸻
+### 2. Galaxy Redshift Distribution
+- Extracts redshift (`z`) from Table A1  
+- Cleans missing values  
+- Plots histogram  
 
-6. Animated Histogram (Color Accumulation)
-	•	Galaxies appear gradually in g - r histogram.
-	•	Bars grow as more galaxies are added.
-	•	Goal: visually demonstrate how sample statistics build up.
+**Goal:**  
+Understand distribution of galaxy distances
 
-⸻
+---
 
-7. Animated Color Distribution by Redshift
-	•	Uses precomputed histograms for each redshift bin.
-	•	Randomly fluctuates bar heights to simulate observational uncertainty.
-	•	Goal: dynamic, engaging outreach illustration.
+### 3. Color Index Distribution
+- Uses Table A2 (`gmag`, `rmag`)  
+- Computes color index: `g - r`  
+- Plots histogram  
 
-⸻
+**Goal:**  
+Identify blue vs. red galaxy populations
 
-8. Animated Scatter: Color vs. Redshift Growth
-	•	Galaxies appear gradually in z vs. g − r plot.
-	•	Moving average line (binned in z) updates in real time.
-	•	Goal: show the buildup of the observed galaxy color–redshift relation.
+---
 
-⸻
+### 4. Color vs Redshift Scatter
+- Filters valid (`g`, `r`, `z`) entries  
+- Computes `g - r`  
+- Plots scatter diagram  
 
-Technologies Used
-	•	Python (3.10+)
-	•	astroquery — for VizieR catalog queries
-	•	pandas — for data manipulation
-	•	matplotlib — for static plots & animations
-	•	numpy — for numerical operations
-	•	ffmpeg — for saving animations as MP4
+**Goal:**  
+Explore galaxy color evolution with redshift
 
-⸻
+---
 
-Example Output
-	•	Histograms: redshift, color index, color by redshift bin.
-	•	Scatter plots: galaxy color evolution.
-	•	Animations: stepwise build-up of data, real-time updating trends.
+### 5. g − r Distribution by Redshift Bins
+- Splits galaxies into redshift intervals  
+- Overlays histograms  
+- Adds classification thresholds:
+  - `g - r = 0.5` → blue/red boundary  
+  - `g - r = 0.8` → red sequence  
 
-⸻
+**Goal:**  
+Compare galaxy populations across cosmic time
 
-Educational Use
+---
 
-These scripts are designed for:
-	•	Astronomy & astrophysics students.
-	•	Science communicators & outreach projects.
-	•	Anyone learning to combine real astronomical data with visual storytelling.
+### 6. Animated Histogram — Color Accumulation
+- Galaxies appear progressively  
+- Histogram grows dynamically  
 
-⸻
+**Goal:**  
+Show how statistical distributions emerge
 
-📸 Gallery
+---
 
-1. Galaxy Redshift Distribution
+### 7. Animated Color Distribution by Redshift
+- Uses precomputed histograms  
+- Adds small fluctuations (uncertainty simulation)  
+
+**Goal:**  
+Create dynamic outreach-friendly visualization
+
+---
+
+### 8. Animated Scatter — Color vs Redshift Growth
+- Gradual appearance of galaxies  
+- Real-time updating trend (moving average)  
+
+**Goal:**  
+Visualize formation of the color–redshift relation
+
+---
+
+## ⚙️ Technologies
+
+- Python 3.10+  
+- `astroquery` — VizieR access  
+- `pandas` — data processing  
+- `numpy` — numerical operations  
+- `matplotlib` — plotting & animation  
+- `ffmpeg` — video export  
+
+---
+
+## 📊 Example Output
+
+- Redshift histograms  
+- Color index distributions  
+- Color vs redshift scatter plots  
+- Animated visualizations of dataset evolution  
+
+---
+
+## 🎓 Educational Use
+
+This project is suitable for:
+
+- Astronomy / astrophysics students  
+- Data analysis learners  
+- Science communication & outreach  
+- Visualization and storytelling with real data  
+
+---
+
+## 📸 Gallery
+
+### Galaxy Redshift Distribution
 ![Galaxy Redshift Distribution](gallery/GRD.png)
-2. Color Index Distribution
+
+### Color Index Distribution
 ![Color Index Distribution](gallery/CG_color.png)
-3. Color vs Redshift Scatter
+
+### Color vs Redshift Scatter
 ![Color vs Redshift Scatter](gallery/CG_color_redshift.png)
-4. g − r Distribution by Redshift Bins
-![g − r Distribution by Redshift Bins](gallery/g-r_distrib_by_redshift.png)
-5. Animated Histogram (Color Accumulation)
-![Animated Histogram (Color Accumulation)](gallery/color_accumulation.gif)
-6. Animated Color Distribution by Redshift
-![Animated Color Distribution by Redshift](gallery/color_simulation.gif)
-7. Animated Scatter: Color vs. Redshift Growth  
-![Animated Scatter: Color vs. Redshift Growth](gallery/scatter.gif)
+
+### g − r Distribution by Redshift Bins
+![g − r Distribution](gallery/g-r_distrib_by_redshift.png)
+
+### Animated Histogram (Color Accumulation)
+![Color Accumulation](gallery/color_accumulation.gif)
+
+### Animated Color Distribution by Redshift
+![Color Simulation](gallery/color_simulation.gif)
+
+### Animated Scatter: Color vs Redshift Growth
+![Scatter Animation](gallery/scatter.gif)
+
+---
+
+## 🚀 Notes
+
+This repository emphasizes:
+- clarity over complexity  
+- reproducible workflows  
+- visual intuition in astrophysical data  
+
+---
+
+## 📬 Future Improvements
+
+- Interactive (web-based) visualizations  
+- Integration with additional catalogs  
+- Extension to larger galaxy samples  
