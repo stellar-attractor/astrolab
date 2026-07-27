@@ -24,3 +24,8 @@ Synthetic data are used where appropriate to keep the notebook self-contained an
 ## Running
 
 Open `paper.ipynb` with JupyterLab, VS Code, or another compatible environment and execute the notebook from top to bottom.
+
+## Run online in Binder
+
+Open and run the notebook directly in your browser:
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/papers/2607.16404/imf_explainer.ipynb)
