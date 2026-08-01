@@ -28,4 +28,4 @@ Open `bar_orbit_decay.ipynb` with JupyterLab, VS Code, or another compatible env
 ## Run online in Binder
 
 Open and run the notebook directly in your browser:
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/papers/2607.26125/bar_orbit_decay.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/f75af5ee54d627410adfca6f722e1b2036522a14?urlpath=lab/tree/papers/2607.26125/bar_orbit_decay.ipynb)
