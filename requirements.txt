@@ -5,3 +5,5 @@ scipy
 scikit-learn
 jupyterlab
 astropy
+shapely
+pillow
