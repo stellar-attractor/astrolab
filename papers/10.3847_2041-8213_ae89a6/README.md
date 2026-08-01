@@ -28,4 +28,4 @@ Open `transit_oblateness_moon.ipynb` with JupyterLab, VS Code, or another compat
 ## Run online in Binder
 
 Open and run the notebook directly in your browser:
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/f99da34879bf3e05a3d0589fa95854967af61922?urlpath=lab/tree/papers/10.3847_2041-8213_ae89a6/transit_oblateness_moon.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/50b4a92fe8891385551c19aacc00932d9a4b43a5?urlpath=lab/tree/papers/10.3847_2041-8213_ae89a6/transit_oblateness_moon.ipynb)
