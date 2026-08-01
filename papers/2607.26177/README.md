@@ -28,4 +28,4 @@ Open `black_hole_seed_growth.ipynb` with JupyterLab, VS Code, or another compati
 ## Run online in Binder
 
 Open and run the notebook directly in your browser:
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/f75af5ee54d627410adfca6f722e1b2036522a14?urlpath=lab/tree/papers/2607.26177/black_hole_seed_growth.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/f99da34879bf3e05a3d0589fa95854967af61922?urlpath=lab/tree/papers/2607.26177/black_hole_seed_growth.ipynb)
