@@ -20,4 +20,4 @@ Open `30440.ipynb` with JupyterLab, VS Code, or another compatible environment a
 
 ## Run online in Binder
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/papers/2609.28652/28652.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/papers/2609.30440/30440.ipynb)
