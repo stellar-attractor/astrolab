@@ -25,4 +25,4 @@ Open `ae9f58.ipynb` with JupyterLab, VS Code, or another compatible environment 
 ## Run online in Binder
 
 Open and run the notebook directly in your browser:
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/astrolab/papers/10.3847_1538-4357_ae9f58/ae9f58.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Interactive%20Notebook-F37626?logo=jupyter&logoColor=white)](https://mybinder.org/v2/gh/stellar-attractor/astrolab/main?urlpath=lab/tree/papers/10.3847_1538-4357_ae9f58/ae9f58.ipynb)
